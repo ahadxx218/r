@@ -1,0 +1,75 @@
+#main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a28869;
+    height: 100vh;
+    flex-direction: column;
+}
+
+body {
+    margin: 0px;
+    color: black;
+    direction: rtl;
+    font-family: "Playpen Sans Arabic", cursive;
+}
+
+body, button, input {
+    font-family: "Playpen Sans Arabic", cursive;
+}
+
+#main-title {
+    font-size: 100px;
+    margin: 0px;
+}
+
+#main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 220, 220);
+    height: 200px;
+    width: 700px;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px rgb(0, 0, 0);
+}
+
+#word-input {
+    width: 500px;
+    height: 50px;
+    border: none;
+    border-radius: 100px;
+    padding: 0px 20px;
+}
+
+#submit-btn {
+    height: 50px;
+    border: none;
+    border-radius: 100px;
+    margin: 0px 10px;
+    width: 160px;
+    background-color: rgb(231, 231, 216);
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#submit-btn:hover {
+    background-color: rgb(165, 165, 154);
+}
+
+#reply-content {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 220, 220);
+    height: 400px;
+    width: 700px;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px rgb(0, 0, 0);
+}
